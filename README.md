@@ -17,11 +17,11 @@ Before running Rec0n.sh, ensure you have the following dependencies installed:
 
 You can install the required dependencies by running the following commands:
 
-``` sudo apt-get update
+ sudo apt update
 sudo apt-get install assetfinder amass httprobe subjack
-go get github.com/haccer/subjack
-go get github.com/tomnomnom/waybackurls
-git clone https://github.com/FortyNorthSecurity/EyeWitness.git ```
+go install github.com/haccer/subjack@latest
+go install github.com/tomnomnom/waybackurls@latest
+git clone https://github.com/FortyNorthSecurity/EyeWitness.git
 
 (If that does not work, please visit the GitHub repositories directly for installation as the installation process may have changed.)
 
@@ -45,7 +45,7 @@ For example:
 
 
 
-./rec0n.sh tesla.com
+./rec0n.sh example.com
 
 Optional: Installing Missing Dependencies Automatically
 
