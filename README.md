@@ -17,7 +17,7 @@ Before running Rec0n.sh, ensure you have the following dependencies installed:
 
 You can install the required dependencies by running the following commands:
 
-``` sudo apt-get update
+ sudo apt-get update
 sudo apt-get install assetfinder amass httprobe subjack
 go get github.com/haccer/subjack
 go get github.com/tomnomnom/waybackurls
