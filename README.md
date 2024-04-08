@@ -45,7 +45,7 @@ For example:
 
 
 
-./rec0n.sh tesla.com
+./rec0n.sh example.com
 
 Optional: Installing Missing Dependencies Automatically
 
